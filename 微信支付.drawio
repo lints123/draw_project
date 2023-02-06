@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-06T06:10:38.910Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="IEEh4iaYJtp-3pEm8b25" version="20.8.16" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-06T06:11:30.062Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="QzP6qXVmrBlakB6BpRtz" version="20.8.16" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -30,7 +30,7 @@
             <mxPoint x="65" y="300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ObNGvsx8ZHt5MPZp7QAw-7" value="callback，客户端支付之后，微信回调支付成功或者失败" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=1;labelBackgroundColor=none;" vertex="1" connectable="0" parent="ObNGvsx8ZHt5MPZp7QAw-6">
+        <mxCell id="ObNGvsx8ZHt5MPZp7QAw-7" value="第五步：callback，客户端支付之后，微信回调支付成功或者失败" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=1;labelBackgroundColor=none;" vertex="1" connectable="0" parent="ObNGvsx8ZHt5MPZp7QAw-6">
           <mxGeometry x="-0.1148" relative="1" as="geometry">
             <mxPoint x="-17" y="-10" as="offset" />
           </mxGeometry>
@@ -40,7 +40,7 @@
             <mxPoint x="275" y="236" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3nuBFxr9cyL0pnOWT2aG-8" value="获取用户OpenId；&#xa;1. 将下单所需参数给到服务端；&#xa;2. 需要服务端调用微信openId接口，返回code" style="verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;shadow=0;strokeWidth=1;align=left;labelBackgroundColor=none;rounded=1;fontColor=default;" parent="1" source="3nuBFxr9cyL0pnOWT2aG-2" target="3nuBFxr9cyL0pnOWT2aG-6" edge="1">
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-8" value="第一步：获取用户OpenId；&#xa;1. 将下单所需参数给到服务端；&#xa;2. 需要服务端调用微信openId接口，返回code" style="verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;shadow=0;strokeWidth=1;align=left;labelBackgroundColor=none;rounded=1;fontColor=default;" parent="1" source="3nuBFxr9cyL0pnOWT2aG-2" target="3nuBFxr9cyL0pnOWT2aG-6" edge="1">
           <mxGeometry x="-0.7187" relative="1" as="geometry">
             <mxPoint x="275" y="160" as="sourcePoint" />
             <mxPoint as="offset" />
@@ -57,7 +57,7 @@
             <mxPoint x="500" y="220" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ObNGvsx8ZHt5MPZp7QAw-5" value="根据需求，考虑静默授权或者非静默授权，&lt;br&gt;然后调用微信API，微信会自动在需要跳转的URL上，&lt;br&gt;拼接上code，" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;rounded=1;" vertex="1" connectable="0" parent="ObNGvsx8ZHt5MPZp7QAw-4">
+        <mxCell id="ObNGvsx8ZHt5MPZp7QAw-5" value="第二步：根据需求，考虑静默授权或者非静默授权，&lt;br&gt;然后调用微信API，微信会自动在需要跳转的URL上，&lt;br&gt;拼接上code，" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;rounded=1;" vertex="1" connectable="0" parent="ObNGvsx8ZHt5MPZp7QAw-4">
           <mxGeometry x="-0.8664" relative="1" as="geometry">
             <mxPoint x="53" y="-30" as="offset" />
           </mxGeometry>
@@ -68,9 +68,9 @@
         <mxCell id="ObNGvsx8ZHt5MPZp7QAw-16" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0.474;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=none;fontSize=14;fontColor=default;" edge="1" parent="1" source="3nuBFxr9cyL0pnOWT2aG-6" target="3nuBFxr9cyL0pnOWT2aG-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ObNGvsx8ZHt5MPZp7QAw-17" value="重定向前端指定的页面；&lt;br style=&quot;font-size: 12px;&quot;&gt;前端唤起支付窗口进行支付；" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;rounded=1;labelBackgroundColor=none;" vertex="1" connectable="0" parent="ObNGvsx8ZHt5MPZp7QAw-16">
+        <mxCell id="ObNGvsx8ZHt5MPZp7QAw-17" value="第四步：&lt;br&gt;服务端重定向前端指定的页面；&lt;br style=&quot;font-size: 12px;&quot;&gt;前端唤起支付窗口进行支付；" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];fontSize=12;rounded=1;labelBackgroundColor=none;" vertex="1" connectable="0" parent="ObNGvsx8ZHt5MPZp7QAw-16">
           <mxGeometry x="0.0987" y="-1" relative="1" as="geometry">
-            <mxPoint x="6" y="-19" as="offset" />
+            <mxPoint x="-94" y="-29" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ObNGvsx8ZHt5MPZp7QAw-18" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0.909;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.256;exitDx=0;exitDy=0;exitPerimeter=0;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="ObNGvsx8ZHt5MPZp7QAw-2">
@@ -84,7 +84,7 @@
             <mxPoint x="-17" y="-10" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ObNGvsx8ZHt5MPZp7QAw-22" value="服务端操作：&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;1. 根据Code，获取当前用户的微信openId；&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;2. 根据之前的请求参数，执行业务逻辑，如创建订单等；&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;3. 调用微信API，创建预支付订单；&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;4. 创建成功之后，根据前端给的URL链接，&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;拼接上从微信返回的参数，使用response.sendRedirect(url)，&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;重定向到此路径&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;labelBackgroundColor=none;" vertex="1" parent="1">
+        <mxCell id="ObNGvsx8ZHt5MPZp7QAw-22" value="第三步：服务端操作：&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;1. 根据Code，获取当前用户的微信openId；&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;2. 根据之前的请求参数，执行业务逻辑，如创建订单等；&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;3. 调用微信API，创建预支付订单；&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;4. 创建成功之后，根据前端给的URL链接，&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;拼接上从微信返回的参数，使用response.sendRedirect(url)，&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;重定向到此路径&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="500" y="210" width="340" height="110" as="geometry" />
         </mxCell>
       </root>
