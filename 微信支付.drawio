@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-06T05:46:40.024Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="XT7lpsajZXY0dao8RK4B" version="20.8.16" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-06T05:46:54.945Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="H65ACcV7h4sQXNQhS56H" version="20.8.16" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -62,7 +62,7 @@
             <mxPoint x="-9" y="-30" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ObNGvsx8ZHt5MPZp7QAw-10" value="服务端操作：&lt;br&gt;1. 根据Code，获取当前用户的微信openId；&lt;br&gt;2. 根据之前的请求参数，执行业务逻辑，如创建订单等；&lt;br&gt;3. 调用微信API，创建预支付订单；&lt;br&gt;4. 拉起微信支付，等待微信回调" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="1">
+        <mxCell id="ObNGvsx8ZHt5MPZp7QAw-10" value="服务端操作：&lt;br&gt;1. 根据Code，获取当前用户的微信openId；&lt;br&gt;2. 根据之前的请求参数，执行业务逻辑，如创建订单等；&lt;br&gt;3. 调用微信API，创建预支付订单；&lt;br&gt;4. 客户端拉起微信支付，等待微信回调" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="1">
           <mxGeometry x="480" y="200" width="320" height="90" as="geometry" />
         </mxCell>
       </root>
