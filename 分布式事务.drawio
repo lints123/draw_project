@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-02-10T17:26:37.780Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="umqAk8uUziZitXSUe4UF" version="20.8.19" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-10T17:29:39.106Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="dzONMRKpyPJMzqKeeOdK" version="20.8.19" type="github">
   <diagram id="EijaFWclXzNpHAFsAF2D" name="第 1 页">
     <mxGraphModel dx="1158" dy="656" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="QYrEDv9TqQ3OovLWhWfL-101" value="服务B" style="rounded=1;glass=0;pointerEvents=1;verticalAlign=top;whiteSpace=wrap;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
-          <mxGeometry x="210" y="900" width="120" height="100" as="geometry" />
+          <mxGeometry x="210" y="910" width="120" height="100" as="geometry" />
         </mxCell>
         <mxCell id="QYrEDv9TqQ3OovLWhWfL-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="QYrEDv9TqQ3OovLWhWfL-97" target="QYrEDv9TqQ3OovLWhWfL-101">
           <mxGeometry relative="1" as="geometry">
@@ -18,6 +18,20 @@
         </mxCell>
         <mxCell id="QYrEDv9TqQ3OovLWhWfL-103" value="2.调用Stock，将XID传递到Stock" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="QYrEDv9TqQ3OovLWhWfL-100">
           <mxGeometry x="0.1697" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QYrEDv9TqQ3OovLWhWfL-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="QYrEDv9TqQ3OovLWhWfL-97" target="QYrEDv9TqQ3OovLWhWfL-105">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="1020" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="140" y="810" />
+              <mxPoint x="140" y="1110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QYrEDv9TqQ3OovLWhWfL-112" value="5. 同服务B一样的步骤" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="QYrEDv9TqQ3OovLWhWfL-111">
+          <mxGeometry x="0.2588" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -154,7 +168,7 @@
           <mxGeometry x="707" y="141" width="120" height="439" as="geometry" />
         </mxCell>
         <mxCell id="QYrEDv9TqQ3OovLWhWfL-83" value="TC（事务协调器）" style="rounded=1;labelBackgroundColor=none;fontStyle=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="750" y="746" width="100" height="350" as="geometry" />
+          <mxGeometry x="770" y="746" width="100" height="350" as="geometry" />
         </mxCell>
         <mxCell id="QYrEDv9TqQ3OovLWhWfL-98" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;entryX=0.016;entryY=0.176;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;startFill=0;" edge="1" parent="1" source="QYrEDv9TqQ3OovLWhWfL-96" target="QYrEDv9TqQ3OovLWhWfL-83">
           <mxGeometry relative="1" as="geometry">
@@ -167,6 +181,19 @@
         <mxCell id="QYrEDv9TqQ3OovLWhWfL-99" value="1. 使用@GlobalTransactional，开启全局事务，&lt;br style=&quot;border-color: var(--border-color); padding: 0px; margin: 0px; font-size: 12px; text-align: left; background-color: rgb(251, 251, 251);&quot;&gt;&lt;span style=&quot;font-size: 12px; text-align: left; background-color: rgb(251, 251, 251);&quot;&gt;&amp;nbsp; &amp;nbsp; 向TC注册TM，TC返回XID&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="QYrEDv9TqQ3OovLWhWfL-98">
           <mxGeometry x="-0.1611" relative="1" as="geometry">
             <mxPoint x="12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QYrEDv9TqQ3OovLWhWfL-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.002;entryY=0.408;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;startFill=0;" edge="1" parent="1" source="QYrEDv9TqQ3OovLWhWfL-96" target="QYrEDv9TqQ3OovLWhWfL-83">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="270" y="880" />
+              <mxPoint x="750" y="880" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QYrEDv9TqQ3OovLWhWfL-114" value="7. 服务如果事务都执行成功，告知TC，TC会通知RM做后续操作；如果失败，同理执行回滚" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="QYrEDv9TqQ3OovLWhWfL-113">
+          <mxGeometry x="-0.4436" relative="1" as="geometry">
+            <mxPoint x="-113" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="QYrEDv9TqQ3OovLWhWfL-96" value="TM" style="rounded=1;glass=0;pointerEvents=1;resizable=1;whiteSpace=wrap;movable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
