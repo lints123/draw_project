@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-16T14:32:33.650Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="QD-RUmEqcOud_tC_I8zG" version="20.8.20" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-16T14:36:00.070Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="aeOopvs0lKhpAtS5HcNG" version="20.8.20" type="github">
   <diagram id="EijaFWclXzNpHAFsAF2D" name="第 1 页">
     <mxGraphModel dx="1050" dy="558" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -316,24 +316,6 @@
           <mxGeometry x="-0.4777" y="-2" relative="1" as="geometry">
             <mxPoint x="61" as="offset" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="lq-ol_Q-eOnB5s1yDe4A-8" value="数据同步" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;" edge="1" parent="1" source="lq-ol_Q-eOnB5s1yDe4A-1" target="lq-ol_Q-eOnB5s1yDe4A-6">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="lq-ol_Q-eOnB5s1yDe4A-1" value="主数据库" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
-          <mxGeometry x="200" y="1910" width="110" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="lq-ol_Q-eOnB5s1yDe4A-7" style="rounded=1;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;" edge="1" parent="1" source="lq-ol_Q-eOnB5s1yDe4A-2" target="lq-ol_Q-eOnB5s1yDe4A-1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="lq-ol_Q-eOnB5s1yDe4A-9" style="rounded=1;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;" edge="1" parent="1" source="lq-ol_Q-eOnB5s1yDe4A-2" target="lq-ol_Q-eOnB5s1yDe4A-6">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="lq-ol_Q-eOnB5s1yDe4A-2" value="用户" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;rounded=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
-          <mxGeometry x="335" y="1770" width="30" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="lq-ol_Q-eOnB5s1yDe4A-6" value="从数据库" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
-          <mxGeometry x="400" y="1910" width="110" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
