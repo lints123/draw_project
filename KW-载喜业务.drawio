@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-25T07:30:07.907Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="ykmrLHIG5otkDv-XWLof" version="21.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-25T07:36:13.256Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="65m2f3aWMYhp0Wni4tqI" version="21.2.9" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1674" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -129,6 +129,9 @@
         <mxCell id="-wXtMhaggdb-ri1AJZwB-18" value="Y" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="-wXtMhaggdb-ri1AJZwB-7" target="-wXtMhaggdb-ri1AJZwB-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="-wXtMhaggdb-ri1AJZwB-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="-wXtMhaggdb-ri1AJZwB-7" target="-wXtMhaggdb-ri1AJZwB-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="-wXtMhaggdb-ri1AJZwB-7" value="是否退款" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="180" y="830" width="80" height="80" as="geometry" />
         </mxCell>
@@ -137,6 +140,30 @@
         </mxCell>
         <mxCell id="-wXtMhaggdb-ri1AJZwB-17" value="库存数‘、GoodsCode、GoodsHash" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="370" y="840" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-wXtMhaggdb-ri1AJZwB-35" value="现金支付" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="-wXtMhaggdb-ri1AJZwB-21" target="-wXtMhaggdb-ri1AJZwB-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-wXtMhaggdb-ri1AJZwB-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="-wXtMhaggdb-ri1AJZwB-21" target="-wXtMhaggdb-ri1AJZwB-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-wXtMhaggdb-ri1AJZwB-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="-wXtMhaggdb-ri1AJZwB-21" target="-wXtMhaggdb-ri1AJZwB-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-wXtMhaggdb-ri1AJZwB-43" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="-wXtMhaggdb-ri1AJZwB-21" target="-wXtMhaggdb-ri1AJZwB-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-wXtMhaggdb-ri1AJZwB-21" value="支付类型" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="180" y="950" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-wXtMhaggdb-ri1AJZwB-34" value="延时订单取消" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="10" y="1150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-wXtMhaggdb-ri1AJZwB-39" value="兑换码" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="180" y="1130" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-wXtMhaggdb-ri1AJZwB-42" value="金币" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="320" y="1110" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
