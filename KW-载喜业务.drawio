@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-05-25T07:28:24.921Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="KAXjqB_thvRrxzMXCZxP" version="21.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-25T07:30:07.907Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="ykmrLHIG5otkDv-XWLof" version="21.2.9" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1674" dy="814" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1674" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -126,11 +126,17 @@
         <mxCell id="-wXtMhaggdb-ri1AJZwB-2" value="创建订单" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="160" y="585" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="-wXtMhaggdb-ri1AJZwB-18" value="Y" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="-wXtMhaggdb-ri1AJZwB-7" target="-wXtMhaggdb-ri1AJZwB-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="-wXtMhaggdb-ri1AJZwB-7" value="是否退款" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="180" y="830" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="-wXtMhaggdb-ri1AJZwB-11" value="替换藏品id" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="340" y="700" width="120" height="60" as="geometry" />
+          <mxGeometry x="370" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-wXtMhaggdb-ri1AJZwB-17" value="库存数‘、GoodsCode、GoodsHash" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="370" y="840" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
