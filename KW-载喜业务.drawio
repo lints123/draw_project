@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-25T07:36:13.256Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="65m2f3aWMYhp0Wni4tqI" version="21.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-25T07:38:01.992Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="k7LDs1N6U3CkEWKHSjhp" version="21.2.9" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1674" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -157,13 +157,22 @@
           <mxGeometry x="180" y="950" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="-wXtMhaggdb-ri1AJZwB-34" value="延时订单取消" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="10" y="1150" width="120" height="60" as="geometry" />
+          <mxGeometry x="20" y="1070" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-wXtMhaggdb-ri1AJZwB-39" value="兑换码" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="180" y="1130" width="80" height="80" as="geometry" />
+          <mxGeometry x="180" y="1070" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-wXtMhaggdb-ri1AJZwB-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="-wXtMhaggdb-ri1AJZwB-42" target="-wXtMhaggdb-ri1AJZwB-44">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-wXtMhaggdb-ri1AJZwB-42" value="金币" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="320" y="1110" width="80" height="80" as="geometry" />
+          <mxGeometry x="320" y="1070" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-wXtMhaggdb-ri1AJZwB-44" value="扣减账户余额" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="300" y="1210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-wXtMhaggdb-ri1AJZwB-48" value="组装数据&lt;br&gt;开奖" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="220" y="1310" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
