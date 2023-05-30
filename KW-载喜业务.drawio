@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-30T10:46:21.278Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="JBEIZG284WDPCDcZ3JMX" version="21.3.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-30T10:48:23.346Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="wFbgcM-QgXArsQ5svqtb" version="21.3.5" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -242,6 +242,18 @@
         <mxCell id="MvxXlkZdT2gZAhvsFn1Y-24" value="权益类型" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1100" y="860" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="MvxXlkZdT2gZAhvsFn1Y-67" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="MvxXlkZdT2gZAhvsFn1Y-26" target="MvxXlkZdT2gZAhvsFn1Y-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MvxXlkZdT2gZAhvsFn1Y-68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="MvxXlkZdT2gZAhvsFn1Y-26" target="MvxXlkZdT2gZAhvsFn1Y-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MvxXlkZdT2gZAhvsFn1Y-69" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="MvxXlkZdT2gZAhvsFn1Y-26" target="MvxXlkZdT2gZAhvsFn1Y-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MvxXlkZdT2gZAhvsFn1Y-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="MvxXlkZdT2gZAhvsFn1Y-26" target="MvxXlkZdT2gZAhvsFn1Y-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="MvxXlkZdT2gZAhvsFn1Y-26" value="平台权益" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="870" y="1090" width="120" height="60" as="geometry" />
         </mxCell>
@@ -271,6 +283,12 @@
         </mxCell>
         <mxCell id="MvxXlkZdT2gZAhvsFn1Y-37" value="自有平台核销" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1241" y="1220" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="MvxXlkZdT2gZAhvsFn1Y-66" value="直接充值" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="827" y="1220" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MvxXlkZdT2gZAhvsFn1Y-70" value="卡密兑换" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="950" y="1220" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
