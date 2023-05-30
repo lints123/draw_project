@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-30T10:53:04.941Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="6PdyULBnBlV33De2Pot2" version="21.3.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-30T10:54:40.034Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="4svksGxDUXSXy7hRLJw-" version="21.3.5" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -296,11 +296,11 @@
         <mxCell id="MvxXlkZdT2gZAhvsFn1Y-29" value="抽奖类权益" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1370" y="950" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="MvxXlkZdT2gZAhvsFn1Y-35" value="载喜平台核销" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="MvxXlkZdT2gZAhvsFn1Y-35" value="载喜平台核销（平台生成核销码）" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1170" y="1209" width="90" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="MvxXlkZdT2gZAhvsFn1Y-37" value="自有平台核销" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1290" y="1209" width="90" height="90" as="geometry" />
+        <mxCell id="MvxXlkZdT2gZAhvsFn1Y-37" value="自有平台核销（商家上传核销码）" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1290" y="1209" width="90" height="91" as="geometry" />
         </mxCell>
         <mxCell id="MvxXlkZdT2gZAhvsFn1Y-66" value="直接充值&lt;br&gt;（蓝色兄弟，365海威充值）" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="740" y="1210" width="103" height="80" as="geometry" />
