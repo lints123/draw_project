@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-27T03:47:58.868Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="nRrUrKwVz1_Vb0RwxQ6z" version="21.3.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-27T03:48:08.008Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="MZaD5t0dJ5wTMCru29hJ" version="21.3.8" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -508,7 +508,7 @@
           <mxGeometry x="763" y="2090" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lvcMOw9Hnl5bjPiuaF_1-15" value="审核提现流程--运营方" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="700" y="2040" width="220" height="30" as="geometry" />
+          <mxGeometry x="710" y="2030" width="220" height="30" as="geometry" />
         </mxCell>
         <mxCell id="lvcMOw9Hnl5bjPiuaF_1-16" value="审核通过" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="650" y="2220" width="80" height="80" as="geometry" />
