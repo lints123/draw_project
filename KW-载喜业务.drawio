@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-27T03:48:08.008Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="MZaD5t0dJ5wTMCru29hJ" version="21.3.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-27T03:54:09.335Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="qqOa3kOkFn9hglHZS621" version="21.3.8" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -495,13 +495,7 @@
         <mxCell id="lvcMOw9Hnl5bjPiuaF_1-10" value="1、余额校验，扣减" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="280" y="2200" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="lvcMOw9Hnl5bjPiuaF_1-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="lvcMOw9Hnl5bjPiuaF_1-14" target="lvcMOw9Hnl5bjPiuaF_1-16">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="lvcMOw9Hnl5bjPiuaF_1-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="lvcMOw9Hnl5bjPiuaF_1-14" target="lvcMOw9Hnl5bjPiuaF_1-18">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="lvcMOw9Hnl5bjPiuaF_1-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="lvcMOw9Hnl5bjPiuaF_1-14" target="lvcMOw9Hnl5bjPiuaF_1-20">
+        <mxCell id="lvcMOw9Hnl5bjPiuaF_1-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="lvcMOw9Hnl5bjPiuaF_1-14" target="lvcMOw9Hnl5bjPiuaF_1-22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lvcMOw9Hnl5bjPiuaF_1-14" value="提现单审核" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -510,14 +504,8 @@
         <mxCell id="lvcMOw9Hnl5bjPiuaF_1-15" value="审核提现流程--运营方" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="710" y="2030" width="220" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lvcMOw9Hnl5bjPiuaF_1-16" value="审核通过" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="650" y="2220" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="lvcMOw9Hnl5bjPiuaF_1-18" value="审核驳回" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="783" y="2220" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="lvcMOw9Hnl5bjPiuaF_1-20" value="重新提现" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="930" y="2220" width="80" height="80" as="geometry" />
+        <mxCell id="lvcMOw9Hnl5bjPiuaF_1-22" value="校验" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="783" y="2190" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
