@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-27T02:39:25.695Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="kL6pAzdWV1HIYszi1dYk" version="21.3.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-27T02:42:30.696Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="bcSKQdvymYV_CH1mwTVn" version="21.3.8" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -470,6 +470,24 @@
         </mxCell>
         <mxCell id="lvcMOw9Hnl5bjPiuaF_1-0" value="推广中台" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="120" y="1400" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lvcMOw9Hnl5bjPiuaF_1-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="lvcMOw9Hnl5bjPiuaF_1-1" target="lvcMOw9Hnl5bjPiuaF_1-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lvcMOw9Hnl5bjPiuaF_1-1" value="品牌方提现" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="240" y="2100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lvcMOw9Hnl5bjPiuaF_1-2" value="提现流程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="60" y="2040" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lvcMOw9Hnl5bjPiuaF_1-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="lvcMOw9Hnl5bjPiuaF_1-3" target="lvcMOw9Hnl5bjPiuaF_1-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lvcMOw9Hnl5bjPiuaF_1-3" value="校验" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="260" y="2200" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lvcMOw9Hnl5bjPiuaF_1-5" value="提现单" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="240" y="2320" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
