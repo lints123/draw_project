@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-27T06:08:19.216Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="tjzwUvV2kwLBf-_c6-nm" version="21.3.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-27T06:09:10.533Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="NcNZs8uaKbrGr1u63w6F" version="21.3.8" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1658" dy="747" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -696,6 +696,17 @@
             <mxPoint x="50" y="80" as="sourcePoint" />
             <Array as="points">
               <mxPoint x="80" y="110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lvcMOw9Hnl5bjPiuaF_1-109" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="lvcMOw9Hnl5bjPiuaF_1-102">
+          <mxGeometry x="45" y="220" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lvcMOw9Hnl5bjPiuaF_1-110" value="9、富友回调&lt;br&gt;成功：扣减余额，更改提现审核单状态&lt;br&gt;失败：更改提现审核单状态" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="lvcMOw9Hnl5bjPiuaF_1-109" parent="lvcMOw9Hnl5bjPiuaF_1-102">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="200" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="80" y="230" />
             </Array>
           </mxGeometry>
         </mxCell>
