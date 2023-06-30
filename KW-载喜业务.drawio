@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-30T09:24:19.349Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="m8_m5mrebMnHkEfsP4ss" version="21.3.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-30T09:24:27.457Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="mlhmPLwpLTcsCvxpGj7M" version="21.3.8" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1674" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -476,7 +476,7 @@
           <mxGeometry x="60" y="2040" width="220" height="30" as="geometry" />
         </mxCell>
         <mxCell id="lvcMOw9Hnl5bjPiuaF_1-39" value="富友分账" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="70" y="2520" width="60" height="30" as="geometry" />
+          <mxGeometry x="90" y="2570" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="lvcMOw9Hnl5bjPiuaF_1-40" value="提现流程--品牌方" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="30" y="2090" width="145" height="300" as="geometry" />
